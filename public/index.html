@@ -4,6 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foods Market Deals</title>
+    <style>
+        /* desktop */
+        @media only screen and (min-width: 960px) {
+            .inner-container {
+                 width: 960px;
+            }
+        }
+        /* mid */
+        @media only screen and (max-width: 959px) {
+            .inner-container {
+                 width: 600px;
+            }
+        }
+        /* mobile */
+        @media only screen and (max-width: 599px) {
+            .inner-container {
+                 width: 100%;
+            }
+            .member-deals-header .member-weekly-deals h1 {
+                font-size: 25px !important;
+            }
+            .member-deals-item,
+            .member-featured-deals-item {
+                width: 50%;
+                padding: 0 10% 0 5%;
+                margin-bottom: 30px;
+                padding-right: 0 !important;
+            }
+            .member-deals-item.item-2 {
+                margin-bottom: 70px;
+            }
+            .member-deals-item.item-6,
+            .member-featured-deals-item.featured-item-2 {
+                margin-bottom: 100px;
+            }
+            .member-featured-deals-item {
+                width: 50%;
+                padding: 0 10% 0 5%;
+                margin-bottom: 30px;
+                padding-right: 0 !important;
+            }
+            .member-featured-deals-item.featured-item-1 img {
+                max-width: 155px;
+            }
+            .closing-promo-description p {
+                padding-right: 20px;
+            }
+            .closing-promo-description p span {
+                display: inline !important;
+            }
+            .store-button tr td a span {
+                padding: 10px 13% !important;
+            }
+        }
+        @media only screen and (max-width: 410px) {
+            .store-button tr td a span {
+                padding: 10px 10% !important;
+            }
+        }
+        @media only screen and (max-width: 374px) {
+            .store-button tr td a span {
+                padding: 10px 3% !important;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- HTML email container start -->
@@ -50,7 +115,7 @@
                                             <tr>
                                                 <td>
                                                     <!-- member deals header start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-header" style="padding-left: 79px; margin-bottom: 40px;" width="100%">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-header" style="padding-left: 13%; margin-bottom: 40px;" width="100%">
                                                         <tr class="member-weekly-deals">
                                                             <td>
                                                                 <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 500; letter-spacing: 1px; color: #2E2D2B; font-size: 33px; margin: 40px 0 15px 0;"><span style="color: #2392C1;">Member</span> Weekly Deals</h1>
@@ -90,7 +155,7 @@
                                             <tr class="member-deals-items-container-row">
                                                 <td>
                                                     <!-- member deals item 1 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item" width="25%" align="left" style="padding-right: 5px;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item item-1" width="25%" align="left" style="padding-right: 5px;">
                                                         <tr class="image">
                                                             <td>
                                                                 <img src="img/1.jpg" alt="pasta sauce" width="90%">
@@ -124,7 +189,7 @@
                                                     </table>
                                                     <!-- member deals item 1 end -->
                                                     <!-- member deals item 2 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item item-2" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="center">
                                                                 <img src="img/2.jpg" alt="90% lean ground beef" width="90%">
@@ -153,7 +218,7 @@
                                                     </table>
                                                     <!-- member deals item 2 end -->
                                                     <!-- member deals item 3 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item item-3" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="center">
                                                                 <img src="img/3.jpg" alt="extra virgin olive oil" width="90%">
@@ -187,7 +252,7 @@
                                                     </table>
                                                     <!-- member deals item 3 end -->
                                                     <!-- member deals item 4 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item item-4" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="right">
                                                                 <img src="img/4.jpg" alt="mac and cheese, pasta and rice" width="90%">
@@ -230,7 +295,7 @@
                                             <tr class="member-deals-items-container-row">
                                                 <td>
                                                     <!-- member deals item 5 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item item-5" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="left">
                                                                 <img src="img/5.jpg" alt="sausage" width="90%">
@@ -264,7 +329,7 @@
                                                     </table>
                                                     <!-- member deals item 5 end -->
                                                     <!-- member deals item 6 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item item-6" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="center">
                                                                 <img src="img/6.jpg" alt="artichokes" width="90%">
@@ -293,7 +358,7 @@
                                                     </table>
                                                     <!-- member deals item 6 end -->
                                                     <!-- member deals item 7 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item item-7" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="center">
                                                                 <img src="img/7.jpg" alt="broccoli rabe" width="90%">
@@ -322,7 +387,7 @@
                                                     </table>
                                                     <!-- member deals item 7 end -->
                                                     <!-- member deals item 8 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-deals-item item-8" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="right">
                                                                 <img src="img/8.jpg" alt="shrimp" width="90%">
@@ -360,7 +425,7 @@
                                             <tr class="member-deals-items-container-row">
                                                 <td>
                                                     <!-- member featured deals item 1 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-featured-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-featured-deals-item featured-item-1" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="left">
                                                                 <img src="img/featured_tile_sales.jpg" alt="featued sales" width="90%">
@@ -369,7 +434,7 @@
                                                     </table>
                                                     <!-- member featured deals item 1 end -->
                                                     <!-- member featured deals item 2 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-featured-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-featured-deals-item featured-item-2" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="center">
                                                                 <img src="img/featured1.jpg" alt="pasta" width="90%">
@@ -395,9 +460,9 @@
                                                                 <!-- discount price container start -->
                                                                 <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                                                     <tr>
-                                                                        <td><img src="img/sale.png" alt="sale" height="12px"></td>
+                                                                        <td width="40px"><img src="img/sale.png" alt="sale" height="12px"></td>
                                                                         <td>
-                                                                            <h3 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 700; letter-spacing: 0px; color: #2E2D2B; font-size: 19px; margin: 0 0 5px 0; position: relative; left: -10px;">15% off</h3>
+                                                                            <h3 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 700; letter-spacing: 0px; color: #2E2D2B; font-size: 19px; margin: 0 0 5px 0;">15% off</h3>
                                                                         </td>
                                                                     </tr>
                                                                 </table>
@@ -412,7 +477,7 @@
                                                     </table>
                                                     <!-- member featured deals item 2 end -->
                                                     <!-- member featured deals item 3 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-featured-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-featured-deals-item featured-item-3" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="center">
                                                                 <img src="img/featured2.jpg" alt="gorgonzola dolce" width="90%" align="center">
@@ -433,9 +498,9 @@
                                                                 <!-- discount price container start -->
                                                                 <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                                                     <tr>
-                                                                        <td><img src="img/sale.png" alt="sale" height="12px"></td>
+                                                                        <td width="40px"><img src="img/sale.png" alt="sale" height="12px"></td>
                                                                         <td>
-                                                                            <h3 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 700; letter-spacing: 0px; color: #2E2D2B; font-size: 19px; margin: 0 0 5px 0; position: relative; left: -10px;">$2 off/lb</h3>
+                                                                            <h3 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 700; letter-spacing: 0px; color: #2E2D2B; font-size: 19px; margin: 0 0 5px 0;">$2 off/lb</h3>
                                                                         </td>
                                                                     </tr>
                                                                 </table>
@@ -450,7 +515,7 @@
                                                     </table>
                                                     <!-- member featured deals item 3 end -->
                                                     <!-- member featured deals item 4 start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-featured-deals-item" width="25%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="member-featured-deals-item featured-item-4" width="25%" align="left">
                                                         <tr class="image">
                                                             <td align="right">
                                                                 <img src="img/featured3.jpg" alt="pasta" width="100%">
@@ -471,9 +536,9 @@
                                                                 <!-- discount price container start -->
                                                                 <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                                                     <tr>
-                                                                        <td><img src="img/sale.png" alt="sale" height="12px"></td>
+                                                                        <td width="40px"><img src="img/sale.png" alt="sale" height="12px"></td>
                                                                         <td>
-                                                                            <h3 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 700; letter-spacing: 0px; color: #2E2D2B; font-size: 19px; margin: 0 0 5px 0; position: relative; left: -10px;">20% off</h3>
+                                                                            <h3 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 700; letter-spacing: 0px; color: #2E2D2B; font-size: 19px; margin: 0 0 5px 0;">20% off</h3>
                                                                         </td>
                                                                     </tr>
                                                                 </table>
@@ -498,7 +563,7 @@
                                 <!-- member deals all deals section start -->
                                 <tr class="member-deals-all-deals-section">
                                     <td style="padding: 65px 0">
-                                        <a href="javascript:void(0)" style="margin-left: 79px; padding: 20px 55px; border: 2px solid #016F46; text-decoration: none; color: #016F46; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 500; font-size: 15px; letter-spacing: 0.5px;">See all deals</a>
+                                        <a href="javascript:void(0)" style="margin-left: 13%; padding: 20px 55px; border: 2px solid #016F46; text-decoration: none; color: #016F46; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 500; font-size: 15px; letter-spacing: 0.5px;">See all deals</a>
                                     </td>
                                 </tr>
                                 <!-- member deals all deals section end -->
@@ -519,10 +584,8 @@
                                 </tr>
                                 <tr class="closing-promo-description">
                                     <td style="padding: 30px 0">
-                                        <p style="margin-left: 81px; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 400; font-size: 13px; line-height: 1.7; letter-spacing: 1px; color: #000000;">
-                                            The King of Cheese is on sale starting this Friday.<br>
-                                            Get that crystal-y, crumbly goodness while you can - the sale ends<br>
-                                            Sunday (Psst: Members get an extra 10% off.)
+                                        <p style="margin-left: 14%; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 400; font-size: 13px; line-height: 1.7; letter-spacing: 1px; color: #000000;">
+                                            The King of Cheese is on sale starting this Friday. <span style="display: block;"><span style="display: block;">Get that crystal-y, crumbly goodness while you can - the sale ends</span><span style="display: block;">Sunday (Psst: Members get an extra 10% off.)</span>
                                         </p>
                                     </td>
                                 </tr>
@@ -551,10 +614,10 @@
                                                     &nbsp;
                                                 </td>
                                             </tr>
-                                            <tr class="store-buttons">
+                                            <tr>
                                                 <td>
                                                     <!-- sales button start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="sales-button" width="33.33%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="store-button sales-button" width="33.33%" align="left">
                                                         <tr>
                                                             <td align="right" style="padding: 30px 5px 30px 0;">
                                                                 <a href="javascript:void(0)" style="text-decoration: none"><span style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; color: #016F46; font-size: 12px; border: 1px solid #016F46; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding: 10px 35px;">See Sales</span></a>
@@ -563,7 +626,7 @@
                                                     </table>
                                                     <!-- sales button end -->
                                                     <!-- shop button start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="shop-button" width="33.33%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="store-button shop-button" width="33.33%" align="left">
                                                         <tr>
                                                             <td align="center" style="padding: 30px 0;">
                                                                 <a href="javascript:void(0)" style="text-decoration: none"><span style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; color: #016F46; font-size: 12px; border: 1px solid #016F46; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding: 10px 35px;">Shop Online</span></a>
@@ -572,7 +635,7 @@
                                                     </table>
                                                     <!-- shop button end -->
                                                     <!-- gift card button start -->
-                                                    <table border="0" cellspacing="0" cellpadding="0" class="giftcard-button" width="33.33%" align="left">
+                                                    <table border="0" cellspacing="0" cellpadding="0" class="store-button giftcard-button" width="33.33%" align="left">
                                                         <tr>
                                                             <td align="left" style="padding: 30px 0 30px 5px;">
                                                                 <a href="javascript:void(0)" style="text-decoration: none"><span style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; color: #016F46; font-size: 12px; border: 1px solid #016F46; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding: 10px 35px;">Gift Cards</span></a>
@@ -596,7 +659,7 @@
                                 <tr class="social-media">
                                     <td>
                                         <!-- social media button container start -->
-                                        <table border="0" cellspacing="0" cellpadding="0" class="social-media-button-container" width="75%" style="margin-left: 25%">
+                                        <table border="0" cellspacing="0" cellpadding="0" class="social-media-button-container" width="300px" align="center">
                                             <tr>
                                                 <td>
                                                     <!-- facebook start -->
